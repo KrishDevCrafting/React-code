@@ -6,7 +6,7 @@ const list = (props) => {
       <nav className="main-nav">
         <ul style={{ listStyle: "a" }}>
           <li>{props.car}</li>
-          <li>{5 * 5}</li>
+          <li>{props.love}</li>
           <li>{props.money}</li>
           <li>{88 % 88}</li>
         </ul>

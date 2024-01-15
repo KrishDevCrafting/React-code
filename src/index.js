@@ -22,7 +22,7 @@ root.render(
     </Bag>
 
     <Bag children={<Apples color="yellow" number="5" />} />
-    <List car="BMW" money="7000" />
+    <List car="BMW" love="Audi" money="7000" />
   </React.StrictMode>
 );
 
