@@ -6,6 +6,7 @@ import List from "./List";
 import Apples from "./Apple";
 import Bag from "./Bag";
 import Pears from "./Pears";
+import Value from "./Expressions";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
@@ -15,7 +16,7 @@ root.render(
     <Itachi color="red" /> */}
     {/* <Form /> */}
     <Bag children={<Pears friend="Peter" />} />
-
+    <Value />
     <Bag>
       <Apples color="yellow" number="5" />
       <Pears friend="Peter" />
