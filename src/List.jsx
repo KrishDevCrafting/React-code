@@ -1,6 +1,6 @@
 import React from "react";
 
-const list = (props) => {
+const List = (props) => {
   return (
     <>
       <nav className="main-nav">
@@ -15,4 +15,4 @@ const list = (props) => {
   );
 };
 
-export default list;
+export default List;

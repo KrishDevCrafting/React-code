@@ -14,7 +14,7 @@ import React from "react";
 // };
 
 function Example() {
-  const getRandomNum = () => Math.floor(Math.random(1) * 10) + 1;
+  const getRandomNum = () => Math.floor(Math.random(8) * 10) + 1;
 
   return (
     <div className="heading">
