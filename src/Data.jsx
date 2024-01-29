@@ -4,7 +4,7 @@ const Data = () => {
   const App = [
     {
       id: 1,
-      name: "Leanne Graham",
+      name: "Krish",
       username: "Bret",
       email: "Sincere@april.biz",
       address: {
@@ -17,8 +17,8 @@ const Data = () => {
           lng: "81.1496",
         },
       },
-      phone: "1-770-736-8031 x56442",
-      website: "hildegard.org",
+      phone: "7011631350",
+      website: "Geopolitcal.org",
       company: {
         name: "Romaguera-Crona",
         catchPhrase: "Multi-layered client-server neural-net",
@@ -235,30 +235,43 @@ const Data = () => {
   ];
 
   return (
-    <table className="table">
-      <thead>
-        <tr>
-          <th>ID</th>
-          <th>Name</th>
-          <th>Email</th>
-          <th>Zipcode</th>
-          <th>Company</th>
-          <th>UserName</th>
-        </tr>
-      </thead>
-      <tbody>
-        {App.map((e) => (
-          <tr key={e.id}>
-            <td>{e.id}</td>
-            <td>{e.name}</td>
-            <td>{e.email}</td>
-            <td>{e.address.zipcode}</td>
-            <td>{e.company.name}</td>
-            <td>{e.username}</td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
+    <>
+      <div className=" table">
+        <table>
+          <thead>
+            <tr className="bg-primary text-white">
+              <td>Username</td>
+              <td>Id</td>
+              <td>Name</td>
+              <td>Phone</td>
+              <td>website</td>
+              <td>Email</td>
+              <td>zipcode</td>
+              <td>geo</td>
+              <td>geo-lat:</td>
+            </tr>
+          </thead>
+          <tbody>
+            {App.map((e) => (
+              <tr class="bg-warning text-dark">
+                <td>{e.username}</td>
+                <td>{e.id}</td>
+                <td>{e.name}</td>
+
+                <td>{e.phone}</td>
+
+                <td>{e.website}</td>
+
+                <td>{e.email}</td>
+                <td>{e.id.address}</td>
+                <td>{e.address.zipcode}</td>
+                <td>{e.address.geo.lat}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </>
   );
 };
 

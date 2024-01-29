@@ -5,10 +5,10 @@ const First = () => {
   return (
     <>
       <Child koko="Ashish" />
-      <Child koko="tanay" />
-      <Child koko="coco" />
-      <Child koko="deepak" />
-      <Child koko="zaki" />
+      <Child koko="Tanay" />
+      <Child koko="Krish" />
+      <Child koko="Deepak" />
+      <Child koko="Zaki" />
     </>
   );
 };
