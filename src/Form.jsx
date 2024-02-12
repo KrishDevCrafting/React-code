@@ -1,5 +1,5 @@
 import React from "react";
-function form() {
+function Form() {
   return (
     <>
       <form class="row">
@@ -75,4 +75,4 @@ function form() {
     </>
   );
 }
-export default form;
+export default Form;
