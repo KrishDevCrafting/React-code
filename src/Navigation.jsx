@@ -1,1 +1,4 @@
 //A Single Page Application allows the user to interact with the website without downloading entire new webpages. Instead, it rewrites the current webpage as the user interacts with it. The outcome is that the application will feel faster and more responsive to the user.
+//When the browser requests the application, return and load all necessary HTML, CSS and JavaScript immediately. This is known as bundling. 
+//When the browser requests the application, return only the minimum HTML, CSS and JavaScript needed to load the application. Additional resources are downloaded as required by the application, for example, when a user navigates to a specific section of the application. This is known as lazy loading or code splitting. 
+//npm i react-router-dom@6
