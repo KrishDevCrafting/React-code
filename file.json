@@ -1,13 +1,101 @@
 {
-  "posts": [
-    { "id": "1", "title": "a title", "views": 100 },
-    { "id": "2", "title": "another title", "views": 200 }
-  ],
-  "comments": [
-    { "id": "1", "text": "a comment about post 1", "postId": "1" },
-    { "id": "2", "text": "another comment about post 1", "postId": "1" }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "employees": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "position": "Manager",
+      "department": "Sales"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "position": "Developer",
+      "department": "Engineering"
+    },
+    {
+      "id": 3,
+      "name": "Alice Johnson",
+      "position": "Analyst",
+      "department": "Finance"
+    },
+    {
+      "id": 4,
+      "name": "Bob Williams",
+      "position": "Designer",
+      "department": "Marketing"
+    },
+    {
+      "id": 5,
+      "name": "Michael Brown",
+      "position": "Engineer",
+      "department": "Technology"
+    },
+    {
+      "id": 6,
+      "name": "Emily Davis",
+      "position": "Coordinator",
+      "department": "Human Resources"
+    },
+    {
+      "id": 7,
+      "name": "Christopher Wilson",
+      "position": "Manager",
+      "department": "Operations"
+    },
+    {
+      "id": 8,
+      "name": "Sarah Martinez",
+      "position": "Consultant",
+      "department": "Strategy"
+    },
+    {
+      "id": 9,
+      "name": "David Garcia",
+      "position": "Specialist",
+      "department": "Research"
+    },
+    {
+      "id": 10,
+      "name": "Jennifer Rodriguez",
+      "position": "Administrator",
+      "department": "Administration"
+    },
+
+    {
+      "id": 95,
+      "name": "Jessica Nguyen",
+      "position": "Coordinator",
+      "department": "Human Resources"
+    },
+    {
+      "id": 96,
+      "name": "Daniel Thomas",
+      "position": "Analyst",
+      "department": "Finance"
+    },
+    {
+      "id": 97,
+      "name": "Lauren Lee",
+      "position": "Developer",
+      "department": "Engineering"
+    },
+    {
+      "id": 98,
+      "name": "Andrew Walker",
+      "position": "Designer",
+      "department": "Marketing"
+    },
+    {
+      "id": 99,
+      "name": "Megan Hall",
+      "position": "Engineer",
+      "department": "Technology"
+    },
+    {
+      "id": 100,
+      "name": "Kevin Perez",
+      "position": "Consultant",
+      "department": "Strategy"
+    }
+  ]
 }

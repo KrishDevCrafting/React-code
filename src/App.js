@@ -5,12 +5,14 @@ function App() {
   return (
     <div className="App">
       <nav className="navbar navbar-light bg-light">
-        <Link path="/">Homepage</Link>
-        <Link path="about-me">About-Me</Link>
+        <Link to="/" className="text-danger">
+          Homepage
+        </Link>
+        <Link to="/aboutme">About-Me</Link>
       </nav>
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="about-me" element={<AboutMe />} />
+        <Route path="/aboutme" element={<AboutMe />} />
       </Routes>
     </div>
   );
