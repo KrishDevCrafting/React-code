@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import react from "react";
 
 const Info = () => {
@@ -15,7 +15,7 @@ const Info = () => {
     setvalue({ Name: "" });
   };
   const handleDelete = (index)=>{
-    const newFormData = [..]
+    const newFormData = []
   }
   return (
     <>
@@ -44,7 +44,7 @@ const Info = () => {
 };
 
 export default Info;
-=======
+
 // import react from "react";
 
 // const Info = () => {
@@ -90,4 +90,3 @@ export default Info;
 // };
 
 // export default Info;
->>>>>>> refs/remotes/origin/main
