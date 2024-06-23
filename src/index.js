@@ -8,13 +8,14 @@ import App from "./App.js";
 
 import Info from "./InterSteller.jsx";
 import { BrowserRouter } from "react-router-dom";
+import { TakeData } from "./Pages/ReviewData.jsx";
 
 
 const main = ReactDOM.createRoot(document.getElementById("main"));
 
 main.render(
   <React.StrictMode>
-
+<TakeData/>
     <Info/>
   </React.StrictMode>
 );
