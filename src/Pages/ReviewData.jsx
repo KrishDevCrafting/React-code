@@ -11,14 +11,18 @@ export const TakeData = () => {
       try {
         const response = await fetch(value);
         if (!response.ok) {
-          throw new Error('Network response was not ok');
+          throw new Error("Network response was not ok");
         }
         const dataRes = await response.json();
 
         // Find the review by Amgad
-        const review = dataRes.find(review => review.reviewer_name === 'Carole');
+        const review = dataRes.find(
+          (review) =>
+            review.content ===
+            "The best service ever! Never found before a staff so professional and kind like in Fushifaru.The best service ever! Never found before a staff so professional and kind like in Fushifaru."
+        );
         if (review) {
-          setReviewerName(review.reviewer_name);
+          setReviewerName(review.content);
         } else {
           setReviewerName(null);
         }
@@ -29,7 +33,6 @@ export const TakeData = () => {
 
     fetchData();
   }, []);
-
 
   return (
     <>
@@ -60,7 +63,7 @@ export const TakeData = () => {
         <div>No review found by Amgad.</div>
       )}
     </div> */}
-    <h1>{reviewerName}</h1>
+      <h1>{reviewerName}</h1>
     </>
   );
 };

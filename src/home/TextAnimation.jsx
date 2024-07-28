@@ -12,7 +12,7 @@ return<>
 </div>
 
 
-<p>a css3 animation demo</p>
+
 </div>
 
 </>
