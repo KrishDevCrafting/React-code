@@ -11,16 +11,15 @@ import { BrowserRouter } from "react-router-dom";
 import { TakeData } from "./Pages/ReviewData.jsx";
 import ChildComponent from "./test/childprops.jsx";
 import ParentComponent from "./test/parentprops.jsx";
-
-
+import { Parentpage } from "./StateLifting/ParentC.jsx";
 
 const main = ReactDOM.createRoot(document.getElementById("main"));
 
 main.render(
   <React.StrictMode>
-<ParentComponent/>
-    <TextComponet/>
-<TakeData/>
-    <Info/>
+    <Parentpage />
+    <TextComponet />
+    <TakeData />
+    <Info />
   </React.StrictMode>
 );
