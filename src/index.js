@@ -12,14 +12,14 @@ import { TakeData } from "./Pages/ReviewData.jsx";
 import ChildComponent from "./test/childprops.jsx";
 import ParentComponent from "./test/parentprops.jsx";
 import { Parentpage } from "./StateLifting/ParentC.jsx";
-
+import { store } from "./app/store";
+import { Provider } from "react-redux";
 const main = ReactDOM.createRoot(document.getElementById("main"));
 
 main.render(
   <React.StrictMode>
-    <Parentpage />
-    <TextComponet />
-    <TakeData />
-    <Info />
+    <Provider store={store}>
+      <App />
+    </Provider>
   </React.StrictMode>
 );
