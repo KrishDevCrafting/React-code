@@ -1,10 +1,13 @@
 import React from "react";
-import { Counter } from "./redux/Counter";
+import Profile from "./components/Profile";
+import Login from "./components/Login";
+
 const App = () => {
   return (
     <>
-      <div>hello</div>
-      <Counter />
+      <h1>Hello</h1>
+      <Profile />
+      <Login />
     </>
   );
 };

@@ -12,8 +12,16 @@ import { TakeData } from "./Pages/ReviewData.jsx";
 import ChildComponent from "./test/childprops.jsx";
 import ParentComponent from "./test/parentprops.jsx";
 import { Parentpage } from "./StateLifting/ParentC.jsx";
-import { store } from "./app/store";
+import user from "./Features/user.js";
 import { Provider } from "react-redux";
+import { configureStore } from "@reduxjs/toolkit";
+
+const store = configureStore({
+  reducer: {
+    user: user,
+  },
+});
+
 const main = ReactDOM.createRoot(document.getElementById("main"));
 
 main.render(
