@@ -15,10 +15,11 @@ import { Parentpage } from "./StateLifting/ParentC.jsx";
 import user from "./Features/user.js";
 import { Provider } from "react-redux";
 import { configureStore } from "@reduxjs/toolkit";
-
+import theme from "./Features/theme.js";
 const store = configureStore({
   reducer: {
     user: user,
+    theme: theme,
   },
 });
 
