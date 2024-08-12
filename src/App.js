@@ -1,6 +1,7 @@
 import React from "react";
 import Profile from "./components/Profile";
 import Login from "./components/Login";
+import ChangeColour from "./components/ChangeColour";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <h1>Hello</h1>
       <Profile />
       <Login />
+      <ChangeColour/>
     </>
   );
 };
